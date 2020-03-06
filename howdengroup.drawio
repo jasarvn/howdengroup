@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-06T04:52:38.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="rThLqQC0cXh66L3OTG6O" version="12.8.1" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-03-06T04:54:01.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="B_ZzpA86Ucz0HnVHj5Jf" version="12.8.1" type="github" pages="6">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system">
     <mxGraphModel dx="683" dy="736" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -679,7 +679,7 @@
         <mxCell id="Ot0mLNwbF1QPkWHJlFcw-7" value="Insurance System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ot0mLNwbF1QPkWHJlFcw-1">
           <mxGeometry x="270" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ot0mLNwbF1QPkWHJlFcw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ot0mLNwbF1QPkWHJlFcw-1" source="Ot0mLNwbF1QPkWHJlFcw-11" target="Ot0mLNwbF1QPkWHJlFcw-7">
+        <mxCell id="Ot0mLNwbF1QPkWHJlFcw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ot0mLNwbF1QPkWHJlFcw-1" source="Ot0mLNwbF1QPkWHJlFcw-11" target="Ot0mLNwbF1QPkWHJlFcw-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ot0mLNwbF1QPkWHJlFcw-11" value="Online transaction Portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ot0mLNwbF1QPkWHJlFcw-1">
