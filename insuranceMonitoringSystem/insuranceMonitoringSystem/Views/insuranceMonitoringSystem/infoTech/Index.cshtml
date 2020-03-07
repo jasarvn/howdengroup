@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/insuranceMonitoringSystem/infoTech/layout/_infoTechLayout.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+TechInfo
+@{
+    <a class="active" asp-area="" asp-controller="infoTech" asp-action="newEmployee">New Employee</a>
+}
+
+<div style="width: 100%; height: 200px; overflow: auto;">
+    <table border="1">
+
+        <tr>
+            @foreach (System.Data.DataColumn col in ViewData.Model.Columns)
+            {
+
+                <td>@col.Caption</td>
+            }
+        </tr>
+
+        <thead>
+            <tr>
+                @foreach (System.Data.DataColumn col in Model.Columns)
+                {
+
+                    <th>@col.Caption</th>
+
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (System.Data.DataRow row in Model.Rows)
+            {
+                <tr>
+                    @foreach (var cell in row.ItemArray)
+                    {
+                        <td>@cell.ToString()</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+

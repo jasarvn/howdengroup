@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\insuranceMonitoringSystem\\insuranceMonitoringSystem\\insuranceMonitoringSystem.csproj": {}
+    "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\InsuranceMonitoringSystem\\insuranceMonitoringSystem\\insuranceMonitoringSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\insuranceMonitoringSystem\\insuranceMonitoringSystem\\insuranceMonitoringSystem.csproj": {
+    "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\InsuranceMonitoringSystem\\insuranceMonitoringSystem\\insuranceMonitoringSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\insuranceMonitoringSystem\\insuranceMonitoringSystem\\insuranceMonitoringSystem.csproj",
+        "projectUniqueName": "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\InsuranceMonitoringSystem\\insuranceMonitoringSystem\\insuranceMonitoringSystem.csproj",
         "projectName": "insuranceMonitoringSystem",
-        "projectPath": "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\insuranceMonitoringSystem\\insuranceMonitoringSystem\\insuranceMonitoringSystem.csproj",
+        "projectPath": "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\InsuranceMonitoringSystem\\insuranceMonitoringSystem\\insuranceMonitoringSystem.csproj",
         "packagesPath": "C:\\Users\\jasarvn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\insuranceMonitoringSystem\\insuranceMonitoringSystem\\obj\\",
+        "outputPath": "C:\\Users\\jasarvn\\source\\repos\\howdengroup\\InsuranceMonitoringSystem\\insuranceMonitoringSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.AspNetCore.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.ReportingServices.ReportViewerControl.WebForms": {
+              "target": "Package",
+              "version": "[150.1400.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
