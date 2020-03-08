@@ -35,7 +35,7 @@ namespace insuranceMonitoringSystem.Helpers
         {
             DataTable rm = new DataTable();
            
-            using (SqlConnection conn = new SqlConnection())
+            using (SqlConnection conn = new SqlConnection(cs))
             {
                 conn.Open();
 
