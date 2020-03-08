@@ -12,11 +12,14 @@ namespace insuranceMonitoringSystem.Models.InfoTechModel
         public string empMname;
         public string empLname;
         public int empId;
+        public string tblname { set; get; } = "tblEmployee";
 
 
         public DataTable getempList()
         {
-            DataTable rdata = Dbhelper.GetDbData("select * from tblEmployee where dlflg ='1' order by empId asc");
+            StringBuilder sql = new StringBuilder();
+            sql.AppendFormat("SELECT * FROM {0} WHERE dlflg = 1 ORDER BY empId ASC", tblname);
+            DataTable rdata = Dbhelper.GetDbData(sql.ToString());
             return rdata;
         }
 
