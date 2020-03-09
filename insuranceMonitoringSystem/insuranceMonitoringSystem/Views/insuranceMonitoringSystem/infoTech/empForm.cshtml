@@ -1,0 +1,108 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/insuranceMonitoringSystem/infoTech/layout/_infoTechLayout.cshtml";
+
+}
+@{ 
+    string formTitle;
+    string submitId;
+    if (ViewData["empId"] is null) 
+    { 
+        formTitle = "New Employee Form";
+        submitId = "saveEmployee";
+    }
+    else {
+        formTitle = "Update Employee Form";
+        submitId = "updateEmployee";
+    }
+
+}
+@formTitle
+<table>
+    <thead>
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Middle Name
+            </th>
+            <th>
+                Last Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input id="empId" type="hidden" value="@ViewData["empId"]"/>
+                <input id ="empFname" type="text" value="@ViewData["empFname"]"/>
+            </td>
+            <td>
+                <input id="empMname" type="text" value="@ViewData["empMname"]"/>
+            </td>
+            <td>
+                <input id="empLname" type="text" value="@ViewData["empLname"]"/>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="@submitId" style="display: inline-block;padding: 10px;border: 1px solid black;">
+    Submit
+</div>
+<div id="cancel" style="display: inline-block;padding: 10px;border: 1px solid black;">
+    Cancel
+</div>
+
+
+
+<script>
+    $(document).ready(function() {
+		//display_product();
+    });
+
+
+    function display_product() {
+     
+    }
+
+    $("#saveEmployee").click(function () {
+        var empFname = $("#empFname").val();
+        var empMname = $("#empMname").val();
+        var empLname = $("#empLname").val();
+			$.post('@Url.Action("insertEmployee", "infoTech")',
+				{
+                    "empFname": empFname,
+                    "empMname": empMname,
+                    "empLname": empLname
+				}, function(result){
+				    window.location.href = '@Url.Action("Index", "infoTech")';
+				});
+      
+    });
+
+
+    $("#updateEmployee").click(function () {
+        var empId = $("#empId").val();
+        var empFname = $("#empFname").val();
+        var empMname = $("#empMname").val();
+        var empLname = $("#empLname").val();
+			$.post('@Url.Action("updateEmployee", "infoTech")',
+                {
+                    "empId":empId,
+                    "empFname": empFname,
+                    "empMname": empMname,
+                    "empLname": empLname
+				}, function(result){
+				    window.location.href = '@Url.Action("Index", "infoTech")';
+				});
+      
+    });
+
+    $("#cancel").click(function () {
+         window.location.href = '@Url.Action("Index", "infoTech")';
+    });
+</script>
+

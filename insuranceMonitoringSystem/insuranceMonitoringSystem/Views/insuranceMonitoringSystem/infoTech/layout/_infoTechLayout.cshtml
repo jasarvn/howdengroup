@@ -1,0 +1,26 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/font-awesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="~/css/font-awesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="~/css/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="~/lib/jsgrid/jsgrid.min.js"></script>
+    <link rel="stylesheet" href="~/lib/jsgrid/jsgrid-theme.min.css" />
+    <link rel="stylesheet" href="~/lib/jsgrid/jsgrid-theme.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+<body>
+    <div>
+            @RenderBody()
+    </div>
+</body>
+</html>
