@@ -2,13 +2,16 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Data;
-using insuranceMonitoringSystem.Models.InfoTechModel;
+using insuranceMonitoringSystem.Models.InfoTech;
 using insuranceMonitoringSystem.Models;
 
 namespace insuranceMonitoringSystem.Controllers.insuranceMonitoringSystem.infoTech.infoTechController
 {
     public class infoTechController : Controller
     {
+
+        public InfoTechEmployessModel query = new InfoTechEmployessModel();
+
         private readonly ILogger<infoTechController> _logger;
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -24,22 +27,24 @@ namespace insuranceMonitoringSystem.Controllers.insuranceMonitoringSystem.infoTe
 
         public IActionResult Index()
         {
-            InfoTechModel query = new InfoTechModel();
-            ViewData.Model = query.getempList();
-            
             return View("~/Views/insuranceMonitoringSystem/infoTech/Index.cshtml");
+        }
+
+        public IActionResult employeeDashboard()
+        {
+            ViewData.Model = query.getempList();
+            return PartialView("~/Views/insuranceMonitoringSystem/infoTech/employee/employeeDashboard.cshtml");
         }
 
         public IActionResult newEmployee()
         {
-            return View("~/Views/insuranceMonitoringSystem/infoTech/empForm.cshtml");
+            return View("~/Views/insuranceMonitoringSystem/infoTech/employee/empForm.cshtml");
         }
       
 
         [HttpPost]
         public string insertEmployeeAsync(string empFname, string empMname, string empLname)
         {
-            InfoTechModel query = new InfoTechModel();
             query.empFname = empFname;
             query.empMname = empMname;
             query.empLname = empLname;
@@ -50,7 +55,6 @@ namespace insuranceMonitoringSystem.Controllers.insuranceMonitoringSystem.infoTe
         [HttpPost]
         public string updateEmployeeAsync(string empFname, string empMname, string empLname,int empId)
         {
-            InfoTechModel query = new InfoTechModel();
             query.empId = empId;
             query.empFname = empFname;
             query.empMname = empMname;
@@ -59,15 +63,10 @@ namespace insuranceMonitoringSystem.Controllers.insuranceMonitoringSystem.infoTe
             return "Updated";
         }
 
-        /* public IActionResult displayTest()
-         {
-             return PartialView("~/Views/insuranceMonitoringSystem/infoTech/newEmpForm.cshtml");
-         }*/
-
+    
         public IActionResult editEmployee(int empId)
         {
             ViewData["empId"] = empId;
-            InfoTechModel query = new InfoTechModel();
             query.empId = empId;
             DataTable result = query.getEmployeeInfo();
 
@@ -80,17 +79,16 @@ namespace insuranceMonitoringSystem.Controllers.insuranceMonitoringSystem.infoTe
             }
 
 
-            return View("~/Views/insuranceMonitoringSystem/infoTech/empForm.cshtml");
+            return View("~/Views/insuranceMonitoringSystem/infoTech/employee/empForm.cshtml");
         }
 
         public IActionResult deleteEmployee(int empId)
         {
             ViewData["empId"] = empId;
-            InfoTechModel query = new InfoTechModel();
             query.empId = empId;
             query.deleteEmployee();
 
-            return View("~/Views/insuranceMonitoringSystem/infoTech/empForm.cshtml");
+            return View("~/Views/insuranceMonitoringSystem/infoTech/employee/employeeDashBoard.cshtml");
         }
 
 

@@ -4,81 +4,54 @@
 @{
     Layout = "~/Views/insuranceMonitoringSystem/infoTech/layout/_infoTechLayout.cshtml";
 }
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-TechInfo
+
 <style>
-    #Delete:hover {
-    cursor: pointer;
-    color: blue;
+    #mainContainer {
+        display: grid;
+        display: -ms-grid;
+        grid-template-rows: 60px 1fr 1fr;
+        grid-template-columns: 500px 500px;
     }
-    #Edit:hover{
-        cursor: pointer;
-        color: blue;
-    }
+   
 </style>
-@{
-    <a class="active" asp-area="" asp-controller="infoTech" asp-action="newEmployee">New Employee</a>
-}
+<h1 class="grid_col1 grid_row1">I.T. Dashboard</h1>
+<div id="employeeContainer" class="grid_col1 grid_row2">
 
-<div style="width: 100%; height: 200px; overflow: auto;">
-    <table border="1">
+</div>
+<div id="departmentContainer" class="grid_col2 grid_row2" style="margin-left: 10px;">
 
-        <thead>
-            <tr>
-                @foreach (System.Data.DataColumn col in Model.Columns)
-                {
-
-                    if (col.Caption != "dlflg")
-                    {
-                        <th>@col.Caption</th>
-                    }
-
-
-                }
-                <th></th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-           
-                
-                @foreach (System.Data.DataRow row in Model.Rows)
-                {
-                    var cnt = 0;
-            <tr>
-                @foreach (var cell in row.ItemArray)
-                {
-                    if (cnt != 4)
-                    {
-                        <td>@cell.ToString()</td>
-                    }
-
-                    cnt++;
-                }
-                <td><div Id="Edit" onclick="edit_Employee('@row.ItemArray[0]')">Edit</div></td>
-                <td><div Id="Delete" onclick="delete_employee('@row.ItemArray[0]')">Delete</div></td>
-            </tr>
-                }
-            
-        </tbody>
-    </table>
 </div>
 
+
+
 <script>
-    function edit_Employee(emp_id) {
-        window.location.href = '@Url.Action("editEmployee", "infoTech")/?empId='+emp_id;
+     $(document).ready(function() {
+         display_employee();
+         display_Department();
+     });
+
+    function display_employee() {
+        $.post('@Url.Action("employeeDashboard", "infoTech")',
+				{
+
+            }, function (result) {
+                    document.getElementById("employeeContainer").innerHTML= result
+             	});
     }
 
-    function delete_employee(emp_id) {
-      	$.post('@Url.Action("deleteEmployee", "infoTech")',
+
+    function display_Department() {
+        $.post('@Url.Action("employeeDashboard", "infoTech")',
 				{
-                    "empId": emp_id
-				}, function(result){
-				    window.location.href = '@Url.Action("Index", "infoTech")';
-				});
-      
+
+            }, function (result) {
+                    document.getElementById("departmentContainer").innerHTML= result
+             	});
     }
+     
 </script>
+
+
 
 
 
