@@ -1,13 +1,12 @@
-﻿using System;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data;
 using System.Text;
 using insuranceMonitoringSystem.Helpers;
 
-namespace insuranceMonitoringSystem.Models.InfoTechModel
+namespace insuranceMonitoringSystem.Models.InfoTech
 {
-    public class InfoTechModel
+    public class InfoTechEmployeeModel
     {
+
         public string empFname;
         public string empMname;
         public string empLname;
@@ -26,7 +25,7 @@ namespace insuranceMonitoringSystem.Models.InfoTechModel
         public DataTable getEmployeeInfo()
         {
             StringBuilder sql = new StringBuilder();
-            sql.AppendFormat("Select * from tblEmployee where empId = {0}", empId);
+            sql.AppendFormat("Select * from {0} where empId = {1}", tblname, empId);
             DataTable rdata = Dbhelper.GetDbData(sql.ToString());
             return rdata;
         }
@@ -34,7 +33,7 @@ namespace insuranceMonitoringSystem.Models.InfoTechModel
         public void insertEmployee()
         {
             StringBuilder sql = new StringBuilder();
-            sql.Append("insert into tblEmployee (empFname,empMname,empLname) values");
+            sql.AppendFormat("insert into {0} (empFname,empMname,empLname) values", tblname);
             sql.AppendFormat("('{0}','{1}','{2}')", empFname, empMname, empLname);
             Dbhelper.processData(sql.ToString());
 
@@ -43,12 +42,12 @@ namespace insuranceMonitoringSystem.Models.InfoTechModel
         public void updateEmployee()
         {
             StringBuilder sql = new StringBuilder();
-            sql.AppendFormat("update tblEmployee set " +
-                "empFname = '{0}'," +
-                "empMname = '{1}'," +
-                "empLname ='{2}'" +
+            sql.AppendFormat("update {0} set " +
+                "empFname = '{1}'," +
+                "empMname = '{2}'," +
+                "empLname ='{3}'" +
                 "where " +
-                "empId = {3}",empFname,empMname,empLname,empId);
+                "empId = {4}", tblname, empFname, empMname, empLname, empId);
             Dbhelper.processData(sql.ToString());
 
         }
@@ -56,16 +55,13 @@ namespace insuranceMonitoringSystem.Models.InfoTechModel
         public void deleteEmployee()
         {
             StringBuilder sql = new StringBuilder();
-            sql.AppendFormat("update tblEmployee set " +
+            sql.AppendFormat("update {0} set " +
                 "dlflg = '0' " +
                 "where " +
-                "empId = {0}",empId);
+                "empId = {1}", tblname, empId);
             Dbhelper.processData(sql.ToString());
 
         }
 
-
-
     }
-
 }

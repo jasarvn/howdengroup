@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/insuranceMonitoringSystem/infoTech/layout/_infoTechLayout.cshtml";
+
+}
+@{ 
+    string formTitle;
+    string submitId;
+    if (ViewData["deptId"] is null) 
+    { 
+        formTitle = "New Department Form";
+        submitId = "saveDepartment";
+    }
+    else {
+        formTitle = "Update Department Form";
+        submitId = "updateDepartment";
+    }
+
+}
+@formTitle
+<table>
+    <thead>
+        <tr>
+            <th>
+                Department Description
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input id="deptId" type="hidden" value="@ViewData["deptId"]"/>
+                <input id ="deptDescription" type="text" value="@ViewData["deptDescription"]"/>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="@submitId" style="display: inline-block;padding: 10px;border: 1px solid black;">
+    Submit
+</div>
+<div id="cancel" style="display: inline-block;padding: 10px;border: 1px solid black;">
+    Cancel
+</div>
+
+
+
+<script>
+    $(document).ready(function() {
+		//display_product();
+    });
+
+
+    function display_product() {
+     
+    }
+
+    $("#saveDepartment").click(function () {
+        var deptDescription = $("#deptDescription").val();
+        	$.post('@Url.Action("insertDepartment", "infoTechDepartment")',
+				{
+                    "deptDescription": deptDescription
+				}, function(result){
+				    window.location.href = '@Url.Action("Index", "infoTech")';
+				});
+      
+    });
+
+
+    $("#updateDepartment").click(function () {
+        var deptId = $("#deptId").val();
+        var deptDescription = $("#deptDescription").val();
+       	$.post('@Url.Action("updateEmployee", "infoTechEmployee")',
+                {
+                    "deptId":deptId,
+                    "deptDescription": deptDescription
+				}, function(result){
+				    window.location.href = '@Url.Action("Index", "infoTech")';
+				});
+      
+    });
+
+    $("#cancel").click(function () {
+         window.location.href = '@Url.Action("Index", "infoTech")';
+    });
+</script>
+

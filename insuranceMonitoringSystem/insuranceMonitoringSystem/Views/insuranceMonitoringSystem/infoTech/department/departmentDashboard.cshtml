@@ -1,0 +1,76 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<style>
+    #Delete:hover {
+        cursor: pointer;
+        color: blue;
+    }
+
+    #Edit:hover {
+        cursor: pointer;
+        color: blue;
+    }
+</style>
+@{
+    <a class="active" asp-area="" asp-controller="infoTechDepartment" asp-action="newDepartment">New Department</a>
+}
+
+<div style="width: 100%; height: 200px; overflow: auto;">
+    <table border="1">
+
+        <thead>
+            <tr>
+                @foreach (System.Data.DataColumn col in Model.Columns)
+                {
+
+                    if (col.Caption != "dlflg")
+                    {
+                        <th>@col.Caption</th>
+                    }
+
+
+                }
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            @foreach (System.Data.DataRow row in Model.Rows)
+            {
+                var cnt = 0;
+                <tr>
+                    @foreach (var cell in row.ItemArray)
+                    {
+                        if (cnt != 2)
+                        {
+                            <td>@cell.ToString()</td>
+                        }
+
+                        cnt++;
+                    }
+                    <td><div Id="Edit" onclick="edit_Department('@row.ItemArray[0]')">Edit</div></td>
+                    <td><div Id="Delete" onclick="delete_Department('@row.ItemArray[0]')">Delete</div></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function edit_Department(dept_id) {
+        window.location.href = '@Url.Action("editDepartment", "infoTechDepartment")/?deptId='+dept_id;
+    }
+
+    function delete_Department(dept_id) {
+      	$.post('@Url.Action("deleteDepartment", "infoTechDepartment")',
+				{
+                    "deptId": dept_id
+				}, function(result){
+				    window.location.href = '@Url.Action("Index", "infoTech")';
+				});
+
+    }
+</script>
