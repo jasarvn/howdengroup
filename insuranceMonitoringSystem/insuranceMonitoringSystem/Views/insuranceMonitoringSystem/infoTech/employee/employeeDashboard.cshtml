@@ -12,7 +12,7 @@
     }
 </style>
 @{
-    <a class="active" asp-area="" asp-controller="infoTech" asp-action="newEmployee">New Employee</a>
+    <a class="active" asp-area="" asp-controller="infoTechEmployee" asp-action="newEmployee">New Employee</a>
 }
 
 <div style="width: 100%; height: 200px; overflow: auto;">
@@ -61,11 +61,11 @@
 
 <script>
     function edit_Employee(emp_id) {
-        window.location.href = '@Url.Action("editEmployee", "infoTech")/?empId='+emp_id;
+        window.location.href = '@Url.Action("editEmployee", "infoTechEmployee")/?empId='+emp_id;
     }
 
     function delete_employee(emp_id) {
-      	$.post('@Url.Action("deleteEmployee", "infoTech")',
+      	$.post('@Url.Action("deleteEmployee", "infoTechEmployee")',
 				{
                     "empId": emp_id
 				}, function(result){

@@ -31,21 +31,22 @@
      });
 
     function display_employee() {
-        $.post('@Url.Action("employeeDashboard", "infoTech")',
+        $.post('@Url.Action("employeeDashboard", "infoTechEmployee")',
 				{
 
             }, function (result) {
-                    document.getElementById("employeeContainer").innerHTML= result
+                    $("#employeeContainer").html(result);
              	});
     }
 
 
     function display_Department() {
-        $.post('@Url.Action("employeeDashboard", "infoTech")',
+        $.post('@Url.Action("departmentDashboard", "infoTechDepartment")',
 				{
 
             }, function (result) {
-                    document.getElementById("departmentContainer").innerHTML= result
+                     $("#departmentContainer").html(result);
+                    
              	});
     }
      

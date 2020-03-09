@@ -72,7 +72,7 @@
         var empFname = $("#empFname").val();
         var empMname = $("#empMname").val();
         var empLname = $("#empLname").val();
-			$.post('@Url.Action("insertEmployee", "infoTech")',
+			$.post('@Url.Action("insertEmployee", "infoTechEmployee")',
 				{
                     "empFname": empFname,
                     "empMname": empMname,
@@ -89,7 +89,7 @@
         var empFname = $("#empFname").val();
         var empMname = $("#empMname").val();
         var empLname = $("#empLname").val();
-			$.post('@Url.Action("updateEmployee", "infoTech")',
+			$.post('@Url.Action("updateEmployee", "infoTechEmployee")',
                 {
                     "empId":empId,
                     "empFname": empFname,

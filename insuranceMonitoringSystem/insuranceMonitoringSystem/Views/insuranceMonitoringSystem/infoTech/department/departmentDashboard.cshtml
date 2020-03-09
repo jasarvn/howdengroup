@@ -12,7 +12,7 @@
     }
 </style>
 @{
-    <a class="active" asp-area="" asp-controller="infoTech" asp-action="newEmployee">New Employee</a>
+    <a class="active" asp-area="" asp-controller="infoTechDepartment" asp-action="newDepartment">New Department</a>
 }
 
 <div style="width: 100%; height: 200px; overflow: auto;">
@@ -43,15 +43,15 @@
                 <tr>
                     @foreach (var cell in row.ItemArray)
                     {
-                        if (cnt != 4)
+                        if (cnt != 2)
                         {
                             <td>@cell.ToString()</td>
                         }
 
                         cnt++;
                     }
-                    <td><div Id="Edit" onclick="edit_Employee('@row.ItemArray[0]')">Edit</div></td>
-                    <td><div Id="Delete" onclick="delete_employee('@row.ItemArray[0]')">Delete</div></td>
+                    <td><div Id="Edit" onclick="edit_Department('@row.ItemArray[0]')">Edit</div></td>
+                    <td><div Id="Delete" onclick="delete_Department('@row.ItemArray[0]')">Delete</div></td>
                 </tr>
             }
 
@@ -60,14 +60,14 @@
 </div>
 
 <script>
-    function edit_Employee(emp_id) {
-        window.location.href = '@Url.Action("editEmployee", "infoTech")/?empId='+emp_id;
+    function edit_Department(dept_id) {
+        window.location.href = '@Url.Action("editDepartment", "infoTechDepartment")/?deptId='+dept_id;
     }
 
-    function delete_employee(emp_id) {
-      	$.post('@Url.Action("deleteEmployee", "infoTech")',
+    function delete_Department(dept_id) {
+      	$.post('@Url.Action("deleteDepartment", "infoTechDepartment")',
 				{
-                    "empId": emp_id
+                    "deptId": dept_id
 				}, function(result){
 				    window.location.href = '@Url.Action("Index", "infoTech")';
 				});
