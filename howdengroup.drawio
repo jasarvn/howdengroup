@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-11T14:33:11.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="9YF7rcdXpH5S-He0-HSJ" version="12.8.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-03-11T15:29:11.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Vbqh6zIuzQJCRdCN1abh" version="12.8.2" type="github" pages="9">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system">
-    <mxGraphModel dx="1736" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,27 +163,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="174ke9fGziRjOWkGuplf-1" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="148" y="2018" width="80" height="80" as="geometry" />
+          <mxGeometry x="152" y="2038" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="174ke9fGziRjOWkGuplf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="738.75" y="2062" as="targetPoint" />
+            <mxPoint x="742.75" y="2082" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="174ke9fGziRjOWkGuplf-2" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="521" y="2022" width="80" height="80" as="geometry" />
+          <mxGeometry x="525" y="2042" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="174ke9fGziRjOWkGuplf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="174ke9fGziRjOWkGuplf-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="415" y="2062" as="sourcePoint" />
-            <mxPoint x="526.0000000000002" y="2065" as="targetPoint" />
+            <mxPoint x="419" y="2082" as="sourcePoint" />
+            <mxPoint x="530.0000000000002" y="2085" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="174ke9fGziRjOWkGuplf-3" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="335" y="2018" width="80" height="80" as="geometry" />
+          <mxGeometry x="339" y="2038" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="174ke9fGziRjOWkGuplf-11" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="750" y="2025" width="80" height="80" as="geometry" />
+          <mxGeometry x="754" y="2045" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="174ke9fGziRjOWkGuplf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-12" target="174ke9fGziRjOWkGuplf-13">
           <mxGeometry relative="1" as="geometry" />
@@ -216,6 +216,139 @@
         </mxCell>
         <mxCell id="174ke9fGziRjOWkGuplf-21" value="&lt;h1&gt;Monitoring File&lt;/h1&gt;&lt;div&gt;File that is used to monitor the insurer that they&amp;nbsp; will be able fulfill there promises&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;file will be the bases for report that will be pass to the client to show if the insurer was able to deliver there promise.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="1056" width="308" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-26" target="174ke9fGziRjOWkGuplf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-26" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="150" y="2233" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-28" target="174ke9fGziRjOWkGuplf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-28" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="335" y="2233" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
+          <mxGeometry x="395" y="2272" width="30.5" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="697" y="2273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-33" target="174ke9fGziRjOWkGuplf-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.4705882352941" y="2353.529411764706" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="561" y="2366" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.015;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-33" target="174ke9fGziRjOWkGuplf-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="561" y="2461" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-33" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="521" y="2233" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-35" target="174ke9fGziRjOWkGuplf-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="834" y="2273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-35" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/humano2/128x128/mimetypes/application-vnd.ms-excel.png" vertex="1" parent="1">
+          <mxGeometry x="701" y="2246.5" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-36" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="829" y="2326" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-38" target="174ke9fGziRjOWkGuplf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
+          <mxGeometry x="702" y="2340.5" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-40" target="174ke9fGziRjOWkGuplf-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-40" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="698" y="2413" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
+          <mxGeometry x="750" y="2451" width="30.5" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-42" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="851" y="2413" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-43" value="&lt;h1&gt;&amp;nbsp;Broker / Insurer Transaction&lt;/h1&gt;&lt;p&gt;Insurer send email list of enrollment application with incomplete information&lt;/p&gt;&lt;p&gt;broker send the list to the company client.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="983" y="2023" width="315" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-44" value="&lt;h1&gt;Client / Broker&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Client sends the additional information for the incomplete application.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Broker updates Monitoring file&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Broker sends the additional information to insurer&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="989" y="2247.5" width="315" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-45" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="150" y="2598" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-46" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/humano2/128x128/mimetypes/application-vnd.ms-excel.png" vertex="1" parent="1">
+          <mxGeometry x="546" y="2611.5" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/seo-and-data/500/window-data-analyzing-128.png" vertex="1" parent="1">
+          <mxGeometry x="347" y="2602.5" width="71" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-48" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="2670" as="sourcePoint" />
+            <mxPoint x="336" y="2638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-49" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-47" target="174ke9fGziRjOWkGuplf-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="651" y="2597" as="sourcePoint" />
+            <mxPoint x="701" y="2547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-52" value="&lt;h1&gt;Broker / Monitoring file&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Broker will continue to monitor the enrollment application using the monitoring file until insurer issues account no. and card.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695.5" y="2590.75" width="315" height="94.5" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="2812.714285714286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-53" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.notification_topic;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2788" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-54" target="174ke9fGziRjOWkGuplf-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/humano2/128x128/mimetypes/application-vnd.ms-excel.png" vertex="1" parent="1">
+          <mxGeometry x="202" y="2786.5" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635.7142857142858" y="2811.2857142857147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-55" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="479" y="2771" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="174ke9fGziRjOWkGuplf-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="817.1428571428573" y="2812.714285714286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-56" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="638" y="2773" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-57" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="825" y="2771" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="174ke9fGziRjOWkGuplf-62" value="&lt;h1&gt;Broker / Monitoring file&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Monitoring file shows notification for due dates or over due process.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Broker send email Insurer about due dates.&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="987" y="2775" width="315" height="127" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
