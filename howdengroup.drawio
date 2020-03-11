@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-11T03:37:02.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="y6hrQ5QCuSSLtzYT_A0G" version="12.8.2" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2020-03-11T07:51:11.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="tduO3m6eHopgFs6YbhPH" version="12.8.2" type="github" pages="9">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,6 +60,92 @@
         </mxCell>
         <mxCell id="BkhbmHTOlsuPoj_nIonJ-15" value="employee assign to create report process the master file to produce the necessary report needed by the employee management&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="300" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3oTWP5nVStHTsrnQOaVA-1" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="162" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9sdb21ymNqLX7whnDdYA-1" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="418" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9sdb21ymNqLX7whnDdYA-2" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3oTWP5nVStHTsrnQOaVA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308" y="647" as="sourcePoint" />
+            <mxPoint x="418" y="589" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9sdb21ymNqLX7whnDdYA-3" value="&lt;h1&gt;Client / Broker Transaction&lt;/h1&gt;&lt;p&gt;Broker made deal with client to handle its HMO insurance for its employees&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="544" y="544" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2WzT19R9e8ufyKjqng8d-1" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="164" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2WzT19R9e8ufyKjqng8d-2" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="429" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2WzT19R9e8ufyKjqng8d-5" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="2WzT19R9e8ufyKjqng8d-1" target="2WzT19R9e8ufyKjqng8d-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="572" y="614" as="sourcePoint" />
+            <mxPoint x="622" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WzT19R9e8ufyKjqng8d-6" value="&lt;h1&gt;&lt;span&gt;Broker / Insurance company transaction&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Broker will search the HMO &lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;market&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&amp;nbsp;for the best product they can offer to Client company.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="710" width="503" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="fChpE9jwQAtKImIQRfr5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2WzT19R9e8ufyKjqng8d-7" target="fChpE9jwQAtKImIQRfr5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WzT19R9e8ufyKjqng8d-7" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="160" y="884" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fChpE9jwQAtKImIQRfr5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fChpE9jwQAtKImIQRfr5-5" target="fChpE9jwQAtKImIQRfr5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fChpE9jwQAtKImIQRfr5-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
+          <mxGeometry x="375" y="893.5" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fChpE9jwQAtKImIQRfr5-6" target="9C2RQBllmeW9wt9iKX_T-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fChpE9jwQAtKImIQRfr5-6" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="550" y="884" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="831" y="884" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Fhn4AuqWjZixC_oQOpPh" name="Page-9">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="ygvcNNofJcNslVdyHUvx-0" />
+        <mxCell id="ygvcNNofJcNslVdyHUvx-1" parent="ygvcNNofJcNslVdyHUvx-0" />
+        <mxCell id="ygvcNNofJcNslVdyHUvx-2" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="60" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ygvcNNofJcNslVdyHUvx-3" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="60" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ygvcNNofJcNslVdyHUvx-5" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="60" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ygvcNNofJcNslVdyHUvx-6" value="IT Admin" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Tech_Man_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="60" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ygvcNNofJcNslVdyHUvx-7" value="Member&lt;br&gt;" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Waiter_Woman_Black_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="210" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XsaZMJpqrYzMkNK7U9fz-0" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="260" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XsaZMJpqrYzMkNK7U9fz-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="280" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XsaZMJpqrYzMkNK7U9fz-2" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Monitor_Tower_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="270" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XsaZMJpqrYzMkNK7U9fz-3" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/telecommunication/iPhone_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="440" y="400" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -566,7 +652,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5B0t7-DM90EpFPLfwF2V" name="Page-8">
-    <mxGraphModel dx="2881" dy="2189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3220" dy="2370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="2f5lzJfiGN9A0gxbIRn8-0" />
         <mxCell id="2f5lzJfiGN9A0gxbIRn8-1" parent="2f5lzJfiGN9A0gxbIRn8-0" />
