@@ -1,66 +1,9 @@
-<mxfile host="www.draw.io" modified="2020-03-11T08:02:02.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Z20hQS43AT2-8HUYkoMb" version="12.8.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-03-11T08:14:08.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Q0ItcgXy_vSTelxook_G" version="12.8.2" type="github" pages="9">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system">
     <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-1" value="Enrollment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="10" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-2" value="add insurance company" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-3" value="create enrollment template excel file" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-4" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="100" as="sourcePoint" />
-            <mxPoint x="350" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-5" value="New isurance company client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="40" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-6" value="broker sends email insurance enrollment form to customer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-7" value="customer enrollment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="160" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-8" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="219.5" as="sourcePoint" />
-            <mxPoint x="350" y="219.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-9" value="broker receive insurance form then file customer&#39;s insurance form and manually input data to customer master file" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="190" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-10" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="219.5" as="sourcePoint" />
-            <mxPoint x="551" y="219.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-11" value="customer fill up the insurance form then send back to to broker" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-12" value="Reporting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="270" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-13" value="employee/management&amp;nbsp; ask for report for monitoring or decision making" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="300" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-14" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="339.5" as="sourcePoint" />
-            <mxPoint x="350" y="339.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BkhbmHTOlsuPoj_nIonJ-15" value="employee assign to create report process the master file to produce the necessary report needed by the employee management&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="300" width="160" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="3oTWP5nVStHTsrnQOaVA-1" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="1">
           <mxGeometry x="162" y="550" width="80" height="80" as="geometry" />
         </mxCell>
@@ -88,32 +31,111 @@
             <mxPoint x="622" y="564" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fChpE9jwQAtKImIQRfr5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2WzT19R9e8ufyKjqng8d-7" target="fChpE9jwQAtKImIQRfr5-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fChpE9jwQAtKImIQRfr5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2WzT19R9e8ufyKjqng8d-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="924" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2WzT19R9e8ufyKjqng8d-7" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="1">
           <mxGeometry x="160" y="884" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fChpE9jwQAtKImIQRfr5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fChpE9jwQAtKImIQRfr5-5" target="fChpE9jwQAtKImIQRfr5-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fChpE9jwQAtKImIQRfr5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fChpE9jwQAtKImIQRfr5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="924" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fChpE9jwQAtKImIQRfr5-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
-          <mxGeometry x="375" y="893.5" width="61" height="61" as="geometry" />
+          <mxGeometry x="344" y="893.5" width="61" height="61" as="geometry" />
         </mxCell>
         <mxCell id="9C2RQBllmeW9wt9iKX_T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fChpE9jwQAtKImIQRfr5-6" target="9C2RQBllmeW9wt9iKX_T-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fChpE9jwQAtKImIQRfr5-6" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="550" y="884" width="80" height="80" as="geometry" />
+          <mxGeometry x="464" y="884" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9C2RQBllmeW9wt9iKX_T-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="831" y="884" width="80" height="80" as="geometry" />
+          <mxGeometry x="629" y="884" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9C2RQBllmeW9wt9iKX_T-5" value="&lt;h1&gt;Client / Broker Transaction&lt;/h1&gt;&lt;p&gt;Broker will search the HMO market for the best product they can offer to the client company&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="565" y="707" width="190" height="120" as="geometry" />
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-5" value="&lt;h1&gt;Broker/ Insurer Transaction&lt;/h1&gt;&lt;p&gt;Broker will search the HMO market for the best product they can offer to the client company&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="710" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9C2RQBllmeW9wt9iKX_T-6" value="&lt;h1&gt;Client / Broker Transaction&lt;/h1&gt;&lt;p&gt;After Insurer is selected, Insurer will provide the broker with enrollment template.&lt;/p&gt;&lt;p&gt;Broker then store the template on the storage file&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="981" y="864" width="190" height="120" as="geometry" />
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-6" value="&lt;h1&gt;Broker/ Insurer Transaction&lt;/h1&gt;&lt;p&gt;After Insurer is selected, Insurer will provide the broker with enrollment template.&lt;/p&gt;&lt;p&gt;Broker then store the template on the storage file&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="783" y="857" width="308" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-7" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="160" y="1079" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9C2RQBllmeW9wt9iKX_T-9" target="k8Mt5debWGYwSjPaGhvy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-9" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="480" y="1079" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9C2RQBllmeW9wt9iKX_T-10" target="9C2RQBllmeW9wt9iKX_T-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-10" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="646" y="1079" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k8Mt5debWGYwSjPaGhvy-1" target="9C2RQBllmeW9wt9iKX_T-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="331" y="1079" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
+          <mxGeometry x="391" y="1118" width="30.5" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-8" value="&lt;h1&gt;Client / Broker Transaction&lt;/h1&gt;&lt;p&gt;Broker offer the client the HMO and if the client approves, Broker send client the template through email.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="808" y="1059" width="315" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k8Mt5debWGYwSjPaGhvy-9" target="k8Mt5debWGYwSjPaGhvy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-9" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="164" y="1287" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k8Mt5debWGYwSjPaGhvy-10" target="k8Mt5debWGYwSjPaGhvy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-10" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="349" y="1287" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
+          <mxGeometry x="409" y="1326" width="30.5" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k8Mt5debWGYwSjPaGhvy-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="711" y="1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k8Mt5debWGYwSjPaGhvy-12" target="XWhHW2ky2KT4rhevTWzw-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583.4705882352941" y="1407.5294117647059" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="575" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8Mt5debWGYwSjPaGhvy-12" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="535" y="1287" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XWhHW2ky2KT4rhevTWzw-2" target="XWhHW2ky2KT4rhevTWzw-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="848" y="1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/humano2/128x128/mimetypes/application-vnd.ms-excel.png" vertex="1" parent="1">
+          <mxGeometry x="715" y="1300.5" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-6" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="843" y="1380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XWhHW2ky2KT4rhevTWzw-7" target="XWhHW2ky2KT4rhevTWzw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
+          <mxGeometry x="716" y="1394.5" width="51" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
