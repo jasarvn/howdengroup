@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-11T07:51:11.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="tduO3m6eHopgFs6YbhPH" version="12.8.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-03-11T08:02:02.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Z20hQS43AT2-8HUYkoMb" version="12.8.2" type="github" pages="9">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,9 +88,6 @@
             <mxPoint x="622" y="564" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2WzT19R9e8ufyKjqng8d-6" value="&lt;h1&gt;&lt;span&gt;Broker / Insurance company transaction&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Broker will search the HMO &lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;market&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&amp;nbsp;for the best product they can offer to Client company.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="710" width="503" height="107" as="geometry" />
-        </mxCell>
         <mxCell id="fChpE9jwQAtKImIQRfr5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2WzT19R9e8ufyKjqng8d-7" target="fChpE9jwQAtKImIQRfr5-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -111,6 +108,12 @@
         </mxCell>
         <mxCell id="9C2RQBllmeW9wt9iKX_T-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
           <mxGeometry x="831" y="884" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-5" value="&lt;h1&gt;Client / Broker Transaction&lt;/h1&gt;&lt;p&gt;Broker will search the HMO market for the best product they can offer to the client company&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="707" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9C2RQBllmeW9wt9iKX_T-6" value="&lt;h1&gt;Client / Broker Transaction&lt;/h1&gt;&lt;p&gt;After Insurer is selected, Insurer will provide the broker with enrollment template.&lt;/p&gt;&lt;p&gt;Broker then store the template on the storage file&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="981" y="864" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
