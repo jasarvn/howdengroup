@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-12T23:13:08.805Z" agent="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="LT3_KdfYjh-u1F90akG5" version="12.8.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-03-12T23:22:47.240Z" agent="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="Ccmjdhf4I2txt88Attnq" version="12.8.2" type="github" pages="9">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system">
     <mxGraphModel dx="1268" dy="812" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -370,14 +370,21 @@
         <mxCell id="3_PipQjtTVV7JdoWO2eL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-8" target="3_PipQjtTVV7JdoWO2eL-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3_PipQjtTVV7JdoWO2eL-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-8" target="3_PipQjtTVV7JdoWO2eL-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="3118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-8" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
           <mxGeometry x="660" y="2994.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/humano2/128x128/mimetypes/application-vnd.ms-excel.png" vertex="1" parent="1">
           <mxGeometry x="856" y="3008" width="53" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="3_PipQjtTVV7JdoWO2eL-15" value="&lt;h1&gt;Broker / Insurer transaction&lt;/h1&gt;&lt;p&gt;Insurer email excel copy of the account number for the new members for the insurance plan&lt;/p&gt;&lt;p&gt;Broker updates the monitoring file.&lt;/p&gt;&lt;p&gt;monitoring for account no. are closed&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="987" y="2984" width="315" height="165" as="geometry" />
+        <mxCell id="3_PipQjtTVV7JdoWO2eL-15" value="&lt;h1&gt;Broker / Insurer transaction&lt;/h1&gt;&lt;p&gt;Insurer email excel copy of the account number for the new members for the insurance plan&lt;/p&gt;&lt;p&gt;Broker updates the monitoring file.&lt;/p&gt;&lt;p&gt;monitoring for account no. are closed&lt;/p&gt;&lt;p&gt;Broker will create a master list for members with id.&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="989" y="2966" width="315" height="190" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-16">
           <mxGeometry relative="1" as="geometry">
@@ -392,9 +399,10 @@
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-17" target="3_PipQjtTVV7JdoWO2eL-24">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1054" y="3445" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="612" y="3336" />
-              <mxPoint x="976" y="3336" />
+              <mxPoint x="612" y="3431" />
+              <mxPoint x="986" y="3431" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -415,19 +423,22 @@
         <mxCell id="3_PipQjtTVV7JdoWO2eL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-23" target="3_PipQjtTVV7JdoWO2eL-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3_PipQjtTVV7JdoWO2eL-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-23" target="3_PipQjtTVV7JdoWO2eL-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-23" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
           <mxGeometry x="754" y="3208" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-24" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="936" y="3208" width="80" height="80" as="geometry" />
+          <mxGeometry x="946" y="3326" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="395" y="3492" as="targetPoint" />
+            <mxPoint x="395" y="3545" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-28" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="188.5" y="3452" width="80" height="80" as="geometry" />
+          <mxGeometry x="188.5" y="3505" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-31" target="3_PipQjtTVV7JdoWO2eL-36">
           <mxGeometry relative="1" as="geometry" />
@@ -435,24 +446,36 @@
         <mxCell id="3_PipQjtTVV7JdoWO2eL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-31" target="3_PipQjtTVV7JdoWO2eL-38">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="650" y="3621" />
+              <mxPoint x="650" y="3674" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-31" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="610" y="3448" width="80" height="80" as="geometry" />
+          <mxGeometry x="610" y="3501" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_PipQjtTVV7JdoWO2eL-32" target="3_PipQjtTVV7JdoWO2eL-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-32" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/tango-icon-library/48/edit-copy-128.png" vertex="1" parent="1">
-          <mxGeometry x="400" y="3449" width="78" height="78" as="geometry" />
+          <mxGeometry x="400" y="3502" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/humano2/128x128/mimetypes/application-vnd.ms-excel.png" vertex="1" parent="1">
-          <mxGeometry x="861" y="3462" width="53" height="53" as="geometry" />
+          <mxGeometry x="861" y="3515" width="53" height="53" as="geometry" />
         </mxCell>
         <mxCell id="3_PipQjtTVV7JdoWO2eL-38" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="851" y="3581" width="80" height="80" as="geometry" />
+          <mxGeometry x="851" y="3634" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3_PipQjtTVV7JdoWO2eL-41" value="&lt;h1&gt;Broker / Insurer transaction&lt;/h1&gt;&lt;p&gt;Insurer sends the card to broker or directly to company client&lt;/p&gt;&lt;p&gt;if the broker received the card directly, broker will send the card to client and update monitoring file manually.&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="3189" width="315" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="3_PipQjtTVV7JdoWO2eL-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/humano2/128x128/mimetypes/application-vnd.ms-excel.png" vertex="1" parent="1">
+          <mxGeometry x="957.5" y="3221.5" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="3_PipQjtTVV7JdoWO2eL-44" value="&lt;h1&gt;Broker / Insurer transaction&lt;/h1&gt;&lt;p&gt;If Insurer send the card directly to client the insurer will send a copy of electronic mail receipt to broker indicating that they already sent the card to the client directly.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Broker receives the copy the store the copy to storage file and update the monitoring system indicating that card process is closed.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="3481" width="315" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="3_PipQjtTVV7JdoWO2eL-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/humano2/128x128/mimetypes/application-vnd.ms-excel.png" vertex="1" parent="1">
+          <mxGeometry x="861" y="3091" width="53" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
