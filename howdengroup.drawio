@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-11T08:14:08.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Q0ItcgXy_vSTelxook_G" version="12.8.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-03-11T08:17:44.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="YCq3His9tW20tc0pPJbM" version="12.8.2" type="github" pages="9">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system">
     <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -136,6 +136,9 @@
         </mxCell>
         <mxCell id="XWhHW2ky2KT4rhevTWzw-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="1">
           <mxGeometry x="716" y="1394.5" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="XWhHW2ky2KT4rhevTWzw-12" value="&lt;h1&gt;Client / Broker Transaction&lt;/h1&gt;&lt;p&gt;After client list its employee on the template form, the client will sent it back to broker through email.&lt;/p&gt;&lt;p&gt;Broker receive email, manually input data to monitoring file&lt;/p&gt;&lt;p&gt;save a copy to storage file&lt;/p&gt;&lt;p&gt;send the enrollment form to Insurance company.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1287" width="315" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
