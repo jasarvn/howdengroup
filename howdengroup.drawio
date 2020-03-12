@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-12T16:27:09.087Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="djGSCxgLSz4fRLTK61hX" version="12.8.4" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-03-12T16:48:44.012Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="DUyZk35kl_0Ooqu-lY_W" version="12.8.4" type="github" pages="10">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system enrollment process">
     <mxGraphModel dx="862" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -747,6 +747,75 @@
             <mxPoint x="558" y="1897" as="sourcePoint" />
             <mxPoint x="443" y="2066" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-10" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="152" y="2273" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-11" target="PPKwL_K8KJxzacQy3xM2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-11" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="473" y="2294" width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-12" target="PPKwL_K8KJxzacQy3xM2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-12" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="706" y="2273" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-17" target="PPKwL_K8KJxzacQy3xM2-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-17" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="152" y="2463" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-19" target="PPKwL_K8KJxzacQy3xM2-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-19" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="473" y="2484" width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-21" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="706" y="2463" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjcyud-MombLEQx68CRp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-24" target="rC8eI1LbM60r5EA6ouNs-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjcyud-MombLEQx68CRp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-24" target="PPKwL_K8KJxzacQy3xM2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjcyud-MombLEQx68CRp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="2899" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="289" y="2777" />
+              <mxPoint x="289" y="2899" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-24" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="132" y="2736.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-26" value="database" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="369" y="2752" width="50" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjcyud-MombLEQx68CRp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="rC8eI1LbM60r5EA6ouNs-0" target="Jjcyud-MombLEQx68CRp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rC8eI1LbM60r5EA6ouNs-0" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="362" y="2644" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjcyud-MombLEQx68CRp-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="622" y="2865" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjcyud-MombLEQx68CRp-3" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="626" y="2644" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjcyud-MombLEQx68CRp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.127;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="Jjcyud-MombLEQx68CRp-9" target="Jjcyud-MombLEQx68CRp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjcyud-MombLEQx68CRp-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="415" y="2869" width="61" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
