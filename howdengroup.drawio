@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-12T16:51:33.851Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Vj1_2KswhPMVpNq_2nW1" version="12.8.4" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-03-12T16:56:25.055Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="WD5g7UVUV3nT5b0NRoFd" version="12.8.4" type="github" pages="10">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system enrollment process">
     <mxGraphModel dx="862" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -851,6 +851,47 @@
         </mxCell>
         <mxCell id="Jjcyud-MombLEQx68CRp-29" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
           <mxGeometry x="112" y="3188" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PoD7wcxr-J9UViGhUTZR-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322.5" y="3382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-1" value="Insurance Company" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Woman_Green_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="107.5" y="3342" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PoD7wcxr-J9UViGhUTZR-3" target="PoD7wcxr-J9UViGhUTZR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-3" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Email_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="337.5" y="3352.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/file-8/128/file_10-128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="379.5" y="3387" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-7" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="565.5" y="3352.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-11" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="419" y="3535" width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-13" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="652" y="3514" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-14" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="93" y="3514" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PoD7wcxr-J9UViGhUTZR-14" target="PoD7wcxr-J9UViGhUTZR-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="558" y="3535" as="sourcePoint" />
+            <mxPoint x="608" y="3485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoD7wcxr-J9UViGhUTZR-16" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PoD7wcxr-J9UViGhUTZR-11" target="PoD7wcxr-J9UViGhUTZR-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="558" y="3535" as="sourcePoint" />
+            <mxPoint x="608" y="3485" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
