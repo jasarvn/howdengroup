@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-12T15:51:14.305Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="jVQl5jHCeVXNv_10s5E1" version="12.8.4" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-03-12T16:01:03.472Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="PFRbS5WqJ3HKUImCKoQN" version="12.8.4" type="github" pages="10">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system enrollment process">
     <mxGraphModel dx="862" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -712,6 +712,15 @@
         <mxCell id="hfu7bBHZJttPOOqj4XO6-13" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
           <mxGeometry x="392" y="-394" width="50" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-0" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="142" y="2022" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-1" value="IT Admin" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Tech_Man_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="135" y="1710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PPKwL_K8KJxzacQy3xM2-2" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="137" y="1866" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -749,6 +758,9 @@
         </mxCell>
         <mxCell id="eoM2Ah2U2XngakdJ2j4D-0" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
           <mxGeometry x="430" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uJtd_9wTd5cVUwmZxvgW-0" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" vertex="1" parent="ygvcNNofJcNslVdyHUvx-1">
+          <mxGeometry x="400" y="30" width="50" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
