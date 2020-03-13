@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-13T16:08:03.874Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="8sK74K8LC1Yxz9JSoU3E" version="12.8.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2020-03-13T16:08:27.154Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="FZwQ5WgCnG_8uyhqcWRI" version="12.8.4" type="github" pages="10">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system enrollment process">
     <mxGraphModel dx="862" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1055,11 +1055,10 @@
         <mxCell id="P_UaZx3mrs0idtxyrFz4-11" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" parent="0ZAVf-8g4BtyuBZb_amP-1" vertex="1">
           <mxGeometry x="566.5" y="5309.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P_UaZx3mrs0idtxyrFz4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="0ZAVf-8g4BtyuBZb_amP-1" source="P_UaZx3mrs0idtxyrFz4-18" target="P_UaZx3mrs0idtxyrFz4-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="P_UaZx3mrs0idtxyrFz4-18" value="IT Admin" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Tech_Man_128x128.png" parent="0ZAVf-8g4BtyuBZb_amP-1" vertex="1">
-          <mxGeometry x="195.5" y="5496" width="80" height="80" as="geometry" />
+        <mxCell id="P_UaZx3mrs0idtxyrFz4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="0ZAVf-8g4BtyuBZb_amP-1" target="P_UaZx3mrs0idtxyrFz4-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275.5" y="5536" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="P_UaZx3mrs0idtxyrFz4-19" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" parent="0ZAVf-8g4BtyuBZb_amP-1" vertex="1">
           <mxGeometry x="467" y="5496" width="80" height="80" as="geometry" />
@@ -1271,6 +1270,9 @@
         </mxCell>
         <mxCell id="ADAewg2d83IjIkQtf_S4-56" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" parent="0ZAVf-8g4BtyuBZb_amP-1" vertex="1">
           <mxGeometry x="97.25" y="7384" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bHeRxpctNPFCU4bt8VMS-0" value="Broker" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Telesales_Man_Black_128x128.png" vertex="1" parent="0ZAVf-8g4BtyuBZb_amP-1">
+          <mxGeometry x="195.5" y="5496" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
