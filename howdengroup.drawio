@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-14T10:36:45.378Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="xHK4E9CcN5JKr9MzGbAJ" version="12.8.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2020-03-14T10:50:24.793Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="j0LF1YgKl6-h2_vQhB79" version="12.8.4" type="github" pages="10">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system enrollment process">
     <mxGraphModel dx="862" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2074,7 +2074,7 @@
     
   </diagram>
   <diagram id="oGY8bbjVvWLLYdHiGG61" name="Claim">
-    <mxGraphModel dx="942" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1792" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="pKeI2L3LIv_6qHk-37yW-0" />
         <mxCell id="pKeI2L3LIv_6qHk-37yW-1" parent="pKeI2L3LIv_6qHk-37yW-0" />
@@ -2237,6 +2237,9 @@
         </mxCell>
         <mxCell id="pKeI2L3LIv_6qHk-37yW-60" value="Howden update monitoring file indicate Members paycheck was already release&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="pKeI2L3LIv_6qHk-37yW-1" vertex="1">
           <mxGeometry x="195" y="1020" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uG4FyDXYuJvSDSb-PNHd-0" value="Member&lt;br&gt;" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Waiter_Woman_Black_128x128.png" vertex="1" parent="pKeI2L3LIv_6qHk-37yW-1">
+          <mxGeometry x="-343" y="40" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
