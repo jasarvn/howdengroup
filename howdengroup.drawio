@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-15T07:33:13.094Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="CtBxG7pYKn9FGg_R2QTY" version="12.8.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2020-03-15T09:05:31.765Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="GxW2KpQjTrLdidKcwNQD" version="12.8.5" type="github" pages="10">
   <diagram id="LIeod6OS_i5pe97JIU7N" name="current system enrollment process">
     <mxGraphModel dx="942" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -713,7 +713,7 @@
           <mxGeometry x="392" y="-394" width="50" height="38" as="geometry" />
         </mxCell>
         <mxCell id="PPKwL_K8KJxzacQy3xM2-0" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" parent="0ZAVf-8g4BtyuBZb_amP-1" vertex="1">
-          <mxGeometry x="129" y="2109" width="80" height="80" as="geometry" />
+          <mxGeometry x="127" y="2086" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PPKwL_K8KJxzacQy3xM2-1" value="IT Admin" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Tech_Man_128x128.png" parent="0ZAVf-8g4BtyuBZb_amP-1" vertex="1">
           <mxGeometry x="122" y="1797" width="80" height="80" as="geometry" />
@@ -728,7 +728,7 @@
           <mxGeometry x="434" y="1974" width="50" height="38" as="geometry" />
         </mxCell>
         <mxCell id="PPKwL_K8KJxzacQy3xM2-5" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" parent="0ZAVf-8g4BtyuBZb_amP-1" vertex="1">
-          <mxGeometry x="436" y="2141" width="50" height="38" as="geometry" />
+          <mxGeometry x="434" y="2118" width="50" height="38" as="geometry" />
         </mxCell>
         <mxCell id="PPKwL_K8KJxzacQy3xM2-6" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-1" target="PPKwL_K8KJxzacQy3xM2-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -744,8 +744,8 @@
         </mxCell>
         <mxCell id="PPKwL_K8KJxzacQy3xM2-8" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.998;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="0ZAVf-8g4BtyuBZb_amP-1" source="PPKwL_K8KJxzacQy3xM2-0" target="PPKwL_K8KJxzacQy3xM2-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="545" y="1984" as="sourcePoint" />
-            <mxPoint x="430" y="2153" as="targetPoint" />
+            <mxPoint x="543" y="1961" as="sourcePoint" />
+            <mxPoint x="428" y="2130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PPKwL_K8KJxzacQy3xM2-10" value="Company Client" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Suit_Man_Black_128x128.png" parent="0ZAVf-8g4BtyuBZb_amP-1" vertex="1">
@@ -1283,7 +1283,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oGY8bbjVvWLLYdHiGG61" name="Claim">
-    <mxGraphModel dx="1718" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1792" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="pKeI2L3LIv_6qHk-37yW-0" />
         <mxCell id="pKeI2L3LIv_6qHk-37yW-1" parent="pKeI2L3LIv_6qHk-37yW-0" />
